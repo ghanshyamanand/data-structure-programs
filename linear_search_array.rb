@@ -1,7 +1,5 @@
 require 'pry'
 
-puts "=========== Linear Array Search =========="
-
 def linear_search(_array, _number)
   _i      = 0
   while _i < _array.length do
@@ -23,8 +21,6 @@ if result == -1
 else
   puts "number present in array at #{result} position"
 end
-
-
 
 # The time complexity of above algorithm is O(n).
 # Linear search is rarely used practically because other search algorithms such as the binary search algorithm and hash tables allow significantly faster searching comparison to Linear search.
