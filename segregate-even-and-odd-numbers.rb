@@ -28,9 +28,10 @@ def seg_odd_even(input_array, length)
     end
   end
   puts input_array
-
 end
 
 
 input_array   =  [12, 34, 45, 9, 8, 90, 3]
-seg_odd_even(input_array, 7)
+input_array2  = [1,-3,7,4,-2,-5,7,8]
+# seg_odd_even(input_array, 7)
+seg_odd_even(input_array2, 8)
