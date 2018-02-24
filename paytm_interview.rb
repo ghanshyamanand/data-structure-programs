@@ -7,7 +7,7 @@
 require 'pry'
 
 
-
+### this is not correct method as this method will not change the main array, this will only print
 def paytm_method(input_array, length)
   even_counter  = 0
   odd_counter = 1
