@@ -43,5 +43,27 @@ def getPairsCount(input_array, length, expected_sum)
   puts "Total : #{sum_counter}"
 end
 
-input_array = [1, 5, 7, -1]
-getPairsCount(input_array, 4, 6)
+
+def getPairsCount2(input_array, length, expected_sum)
+end
+
+
+input_array = [5, 3, 7, 0, 1, 4, 2]
+getPairsCount2(input_array, 7, 5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
